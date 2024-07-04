@@ -2,9 +2,9 @@
 Martin Colbourne (@FloatingBrioche) and I (Ren Zoller, @dkettchen) made some code to generate a random pokemon with a dictionary of info about it.
 
 The returned dictionary is structured as follows:
-{    'height': <height (int)>
-    'moves': [<moves (string)>]
-    'name': <pokemon's name (string)>
+{    'height': <height (int)>,
+    'moves': [<moves (string)>],
+    'name': <pokemon's name (string)>,
     'stats': [   {'hp': <hp (int)>},
                  {'attack': <attack (int)>},
                  {'defense': <defense (int)>},
